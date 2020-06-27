@@ -107,8 +107,8 @@ begin
 			N => N
 		)
 		port map(
-			input1 => Cin(N),
-			input2(N - 1 downto 0) => '0' & Sin(N)(N - 1 downto 1),
+			input1(N - 1 downto 0) => '0' & Sin(N)(N - 1 downto 1),
+			input2 => Cin(N),
 			cin => '0',
 			cout => Cout(N)(0),
 			output => Sout(N)

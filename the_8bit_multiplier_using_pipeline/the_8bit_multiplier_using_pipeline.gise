@@ -77,6 +77,10 @@
     <transform xil_pn:end_ts="1593265390" xil_pn:in_ck="-3421764252401859111" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1593265390">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="C_Module.vhd"/>
       <outfile xil_pn:name="FullAdder_Nbit.vhd"/>
       <outfile xil_pn:name="Full_Adder.vhd"/>
@@ -102,6 +106,7 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
       <status xil_pn:value="InputChanged"/>
       <status xil_pn:value="OutputChanged"/>
@@ -118,6 +123,7 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
       <status xil_pn:value="OutOfDateForPredecessor"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
       <status xil_pn:value="InputChanged"/>
@@ -132,6 +138,7 @@
     <transform xil_pn:end_ts="1593263790" xil_pn:in_ck="7185065103553312871" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="-2062114896601295885" xil_pn:start_ts="1593263790">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
       <status xil_pn:value="OutOfDateForPredecessor"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
       <status xil_pn:value="OutputChanged"/>
