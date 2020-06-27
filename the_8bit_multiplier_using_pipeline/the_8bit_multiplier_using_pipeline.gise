@@ -38,6 +38,7 @@
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="C_Module_stx_beh.prj"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="C_Module_vhdl.prj"/>
     <file xil_pn:fileType="FILE_XRPT" xil_pn:name="C_Module_xst.xrpt"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="FullAdder_Nbit_isim_beh.exe"/>
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="FullAdder_Nbit_stx_beh.prj"/>
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Full_Adder_8bit_stx_beh.prj"/>
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Full_Adder_stx_beh.prj"/>
@@ -45,13 +46,13 @@
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Multiplier2_stx_beh.prj"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="Multiplier_Row_isim_beh.exe"/>
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Multiplier_Row_stx_beh.prj"/>
-    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Multiplier_beh.prj"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="Multiplier_isim_beh.exe"/>
-    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="Multiplier_isim_beh.wdb"/>
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Multiplier_stx_beh.prj"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="Rigester_isim_beh.exe"/>
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Rigester_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="TB_Multiplier_beh.prj"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="TB_Multiplier_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="TB_Multiplier_isim_beh.wdb"/>
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="TB_Multiplier_stx_beh.prj"/>
     <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="_ngo"/>
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="_stx_beh.prj"/>
@@ -73,7 +74,7 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1593257956" xil_pn:in_ck="-3421764252401859111" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1593257956">
+    <transform xil_pn:end_ts="1593265390" xil_pn:in_ck="-3421764252401859111" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1593265390">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="C_Module.vhd"/>
@@ -85,11 +86,11 @@
       <outfile xil_pn:name="Rigester.vhd"/>
       <outfile xil_pn:name="TB_Multiplier.vhd"/>
     </transform>
-    <transform xil_pn:end_ts="1593257227" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="1431731825680840394" xil_pn:start_ts="1593257227">
+    <transform xil_pn:end_ts="1593263783" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="8868191025317828146" xil_pn:start_ts="1593263783">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1593257227" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="-1935642672090492084" xil_pn:start_ts="1593257227">
+    <transform xil_pn:end_ts="1593263783" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="-7717892826017760076" xil_pn:start_ts="1593263783">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
@@ -97,7 +98,7 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1593257086" xil_pn:in_ck="-3421764252401859111" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1593257086">
+    <transform xil_pn:end_ts="1593263783" xil_pn:in_ck="-3421764252401859111" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1593263783">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <status xil_pn:value="OutOfDateForInputs"/>
@@ -113,7 +114,7 @@
       <outfile xil_pn:name="Rigester.vhd"/>
       <outfile xil_pn:name="TB_Multiplier.vhd"/>
     </transform>
-    <transform xil_pn:end_ts="1593257233" xil_pn:in_ck="-3421764252401859111" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="-668296775259730647" xil_pn:start_ts="1593257227">
+    <transform xil_pn:end_ts="1593263790" xil_pn:in_ck="-3421764252401859111" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="249112420192976326" xil_pn:start_ts="1593263783">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <status xil_pn:value="OutOfDateForInputs"/>
@@ -121,20 +122,20 @@
       <status xil_pn:value="OutOfDateForOutputs"/>
       <status xil_pn:value="InputChanged"/>
       <status xil_pn:value="OutputChanged"/>
-      <outfile xil_pn:name="Multiplier_beh.prj"/>
-      <outfile xil_pn:name="Multiplier_isim_beh.exe"/>
+      <outfile xil_pn:name="TB_Multiplier_beh.prj"/>
+      <outfile xil_pn:name="TB_Multiplier_isim_beh.exe"/>
       <outfile xil_pn:name="fuse.log"/>
       <outfile xil_pn:name="isim"/>
       <outfile xil_pn:name="isim.log"/>
       <outfile xil_pn:name="xilinxsim.ini"/>
     </transform>
-    <transform xil_pn:end_ts="1593257235" xil_pn:in_ck="2563302660477052537" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="5053001620422257078" xil_pn:start_ts="1593257233">
+    <transform xil_pn:end_ts="1593263790" xil_pn:in_ck="7185065103553312871" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="-2062114896601295885" xil_pn:start_ts="1593263790">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <status xil_pn:value="OutOfDateForPredecessor"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
       <status xil_pn:value="OutputChanged"/>
-      <outfile xil_pn:name="Multiplier_isim_beh.wdb"/>
+      <outfile xil_pn:name="TB_Multiplier_isim_beh.wdb"/>
       <outfile xil_pn:name="isim.cmd"/>
       <outfile xil_pn:name="isim.log"/>
     </transform>

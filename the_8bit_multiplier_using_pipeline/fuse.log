@@ -1,4 +1,4 @@
-Running: fuse.exe -relaunch -intstyle "ise" -incremental -o "E:/Programing/University Projects/VHDL/the_8bit_multiplier_using_pipeline/Multiplier_isim_beh.exe" -prj "E:/Programing/University Projects/VHDL/the_8bit_multiplier_using_pipeline/Multiplier_beh.prj" "work.Multiplier" 
+Running: C:\ProgramFiles\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -o E:/Programing/University Projects/VHDL/the_8bit_multiplier_using_pipeline/TB_Multiplier_isim_beh.exe -prj E:/Programing/University Projects/VHDL/the_8bit_multiplier_using_pipeline/TB_Multiplier_beh.prj work.TB_Multiplier 
 ISim P.20131013 (signature 0x7708f090)
 Number of CPUs detected in this system: 8
 Turning on mult-threading, number of parallel sub-compilation jobs: 16 
@@ -10,19 +10,25 @@ Parsing VHDL file "E:/Programing/University Projects/VHDL/the_8bit_multiplier_us
 Parsing VHDL file "E:/Programing/University Projects/VHDL/the_8bit_multiplier_using_pipeline/Multiplier_Row.vhd" into library work
 Parsing VHDL file "E:/Programing/University Projects/VHDL/the_8bit_multiplier_using_pipeline/FullAdder_Nbit.vhd" into library work
 Parsing VHDL file "E:/Programing/University Projects/VHDL/the_8bit_multiplier_using_pipeline/Multiplier.vhd" into library work
+WARNING:HDLCompiler:946 - "E:/Programing/University Projects/VHDL/the_8bit_multiplier_using_pipeline/Multiplier.vhd" Line 79: Actual for formal port sin is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "E:/Programing/University Projects/VHDL/the_8bit_multiplier_using_pipeline/Multiplier.vhd" Line 111: Actual for formal port input2 is neither a static name nor a globally static expression
+Parsing VHDL file "E:/Programing/University Projects/VHDL/the_8bit_multiplier_using_pipeline/TB_Multiplier.vhd" into library work
 Starting static elaboration
 Completed static elaboration
 Compiling package standard
 Compiling package std_logic_1164
+Compiling package numeric_std
 Compiling architecture behavioral of entity Half_Adder [half_adder_default]
 Compiling architecture behavioral of entity Full_Adder [full_adder_default]
 Compiling architecture behavioral of entity C_Module [c_module_default]
 Compiling architecture behavioral of entity Multiplier_Row [\Multiplier_Row(8)\]
 Compiling architecture behavioral of entity Rigester [\Rigester(16)\]
 Compiling architecture behavioral of entity FullAdder_Nbit [\FullAdder_Nbit(8)\]
-Compiling architecture behavioral of entity multiplier
+Compiling architecture behavioral of entity Multiplier [\Multiplier(8)\]
+Compiling architecture behavior of entity tb_multiplier
 Time Resolution for simulation is 1ps.
-Compiled 15 VHDL Units
-Built simulation executable E:/Programing/University Projects/VHDL/the_8bit_multiplier_using_pipeline/Multiplier_isim_beh.exe
-Fuse Memory Usage: 30680 KB
-Fuse CPU Usage: 843 ms
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 18 VHDL Units
+Built simulation executable E:/Programing/University Projects/VHDL/the_8bit_multiplier_using_pipeline/TB_Multiplier_isim_beh.exe
+Fuse Memory Usage: 36664 KB
+Fuse CPU Usage: 999 ms

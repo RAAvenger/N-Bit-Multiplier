@@ -27,7 +27,7 @@ begin
 			PORT MAP(
 				input1 => input1(i),
 				input2 => input2(i),
-				cin => s(0),
+				cin => s(i),
 				sum => output(i),
 				cout => s(i + 1)
 			);

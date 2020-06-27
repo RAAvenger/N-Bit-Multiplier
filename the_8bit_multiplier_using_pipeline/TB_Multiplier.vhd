@@ -1,37 +1,7 @@
---------------------------------------------------------------------------------
--- Company: 
--- Engineer:
---
--- Create Date:   20:11:44 06/07/2020
--- Design Name:   
--- Module Name:   E:/Programing/University Projects/VHDL/the_8bit_multiplier_using_pipeline/TB_Multiplier.vhd
--- Project Name:  the_8bit_multiplier_using_pipeline
--- Target Device:  
--- Tool versions:  
--- Description:   
--- 
--- VHDL Test Bench Created by ISE for module: Multiplier
--- 
--- Dependencies:
--- 
--- Revision:
--- Revision 0.01 - File Created
--- Additional Comments:
---
--- Notes: 
--- This testbench has been automatically generated using types std_logic and
--- std_logic_vector for the ports of the unit under test.  Xilinx recommends
--- that these types always be used for the top-level I/O of a design in order
--- to guarantee that the testbench will bind correctly to the post-implementation 
--- simulation model.
---------------------------------------------------------------------------------
+
 LIBRARY ieee;
 USE ieee.std_logic_1164.ALL;
 Use IEEE.numeric_std.ALL;
-
--- Uncomment the following library declaration if using
--- arithmetic functions with Signed or Unsigned values
---USE ieee.numeric_std.ALL;
  
 ENTITY TB_Multiplier IS
 END TB_Multiplier;
@@ -98,9 +68,11 @@ BEGIN
 	process(clk)
 	begin
 		if RISING_EDGE(clk) then
-			if( a = 8)then
+			if (a = 1) then
 				input1 <= std_logic_vector(to_unsigned(b, 8));
 				input2 <= std_logic_vector(to_unsigned(c, 8));
+				a <= a + 1;
+			elsif( a = 11)then
 				a <= 1;
 				if b >= 255 then
 					b <= 1;

@@ -1,5 +1,5 @@
 ISim log file
-Running: E:\Programing\University Projects\VHDL\the_8bit_multiplier_using_pipeline\Multiplier_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb E:/Programing/University Projects/VHDL/the_8bit_multiplier_using_pipeline/Multiplier_isim_beh.wdb 
+Running: E:\Programing\University Projects\VHDL\the_8bit_multiplier_using_pipeline\TB_Multiplier_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb E:/Programing/University Projects/VHDL/the_8bit_multiplier_using_pipeline/TB_Multiplier_isim_beh.wdb 
 ISim P.20131013 (signature 0x7708f090)
 This is a Full version of ISim.
 Time resolution is 1 ps
@@ -8,15 +8,261 @@ Time resolution is 1 ps
 # run 1000 ns
 Simulator is doing circuit initialization process.
 Finished circuit initialization process.
-# restart
-# isim force add /multiplier/clk 0 -radix bin -value 1 -radix bin -time 25 ns -repeat 50 ns
-# isim force add /multiplier/input1 5 -radix unsigned
-# isim force add /multiplier/input2 6 -radix unsigned
 # run 1.00us
-Simulator is doing circuit initialization process.
-Finished circuit initialization process.
-ISim P.20131013 (signature 0x7708f090)
-This is a Full version of ISim.
-# run 1000 ns
-Simulator is doing circuit initialization process.
-Finished circuit initialization process.
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+at 14325 ns(1), Instance /tb_multiplier/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+at 29175 ns(1), Instance /tb_multiplier/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+at 44025 ns(1), Instance /tb_multiplier/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+at 58875 ns(1), Instance /tb_multiplier/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+at 73725 ns(1), Instance /tb_multiplier/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+# run 1.00us
+# run 2.00us
+# run 2.00us
+# run 2.00us
+# run 2.00us
+# run 2.00us
+# run 2.00us
+# run 2.00us
+at 88575 ns(1), Instance /tb_multiplier/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+# run 2.00us
+# run 2.00us
+# run 2.00us
+# run 2.00us
+# run 2.00us
+# run 2.00us
+# run 2.00us
+# run 2.00us
+at 103425 ns(1), Instance /tb_multiplier/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+# run 2.00us
+# run 2.00us
+# run 2.00us
+# run 2.00us
+# run 2.00us
+# run 2.00us
+# run 2.00us
+at 118275 ns(1), Instance /tb_multiplier/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+# run 2.00us
+# run 2.00us
+# run 2.00us
+# run 2.00us
+# run 2.00us
+# run 2.00us
+# run 2.00us
+# run 2.00us
+at 133125 ns(1), Instance /tb_multiplier/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+# run 2.00us
+# run 2.00us
+# run 2.00us
+# run 2.00us
+# run 2.00us
+# run 2.00us
+# run 2.00us
+at 147975 ns(1), Instance /tb_multiplier/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+# run 2.00us
+# run 2.00us
+# run 2.00us
+# run 2.00us
+# run 2.00us
+# run 2.00us
+# run 2.00us
+at 162825 ns(1), Instance /tb_multiplier/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+# run 2.00us
+# run 2.00us
+# run 2.00us
+# run 2.00us
+# run 2.00us
+# run 2.00us
+# run 2.00us
+# run 2.00us
+at 177675 ns(1), Instance /tb_multiplier/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+# run 2.00us
+# run 2.00us
+# run 2.00us
+# run 2.00us
+# run 2.00us
+# run 2.00us
+# run 2.00us
+at 192525 ns(1), Instance /tb_multiplier/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+# run 2.00us
+# run 2.00us
+# run 2.00us
+# run 2.00us
+# run 2.00us
+# run 2.00us
+# run 2.00us
+# run 2.00us
+at 207375 ns(1), Instance /tb_multiplier/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+# run 2.00us
+# run 2.00us
+# run 2.00us
+# run 2.00us
+# run 2.00us
+# run 2.00us
+# run 2.00us
+at 222225 ns(1), Instance /tb_multiplier/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+# run 2.00us
+# run 2.00us
+# run 2.00us
+# run 2.00us
+# run 2.00us
+# run 2.00us
+# run 2.00us
+# run 2.00us
+at 237075 ns(1), Instance /tb_multiplier/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+# run 2.00us
+# run 2.00us
+# run 2.00us
+# run 2.00us
+# run 2.00us
+# run 2.00us
+# run 2.00us
+at 251925 ns(1), Instance /tb_multiplier/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+# run 2.00us
+# run 2.00us
+# run 2.00us
+# run 2.00us
+# run 2.00us
+# run 2.00us
+# run 2.00us
+at 266775 ns(1), Instance /tb_multiplier/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+# run 2.00us
+# run 2.00us
+# run 2.00us
+# run 2.00us
+# run 2.00us
+# run 2.00us
+# run 2.00us
+# run 2.00us
+at 281625 ns(1), Instance /tb_multiplier/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+# run 2.00us
+# run 2.00us
+# run 2.00us
+# run 2.00us
+# run 2.00us
+# run 2.00us
+# run 2.00us
+at 296475 ns(1), Instance /tb_multiplier/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+# run 2.00us
+# run 2.00us
+# run 2.00us
+# run 2.00us
+# run 2.00us
+# run 2.00us
+# run 2.00us
+# run 2.00us
+at 311325 ns(1), Instance /tb_multiplier/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+# run 2.00us
+# run 2.00us
+# run 2.00us
+# run 2.00us
+# run 2.00us
+# run 2.00us
+# run 2.00us
+at 326175 ns(1), Instance /tb_multiplier/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+# run 2.00us
+# run 2.00us
+# run 2.00us
+# run 2.00us
+# run 2.00us
+# run 2.00us
+# run 2.00us
+# run 2.00us
+at 341025 ns(1), Instance /tb_multiplier/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+# run 2.00us
+# run 2.00us
+# run 2.00us
+# run 2.00us
+# run 2.00us
+# run 2.00us
+# run 2.00us
+at 355875 ns(1), Instance /tb_multiplier/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+# run 2.00us
+# run 2.00us
+# run 2.00us
+# run 2.00us
+# run 2.00us
+# run 2.00us
+# run 2.00us
+at 370725 ns(1), Instance /tb_multiplier/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+# run 2.00us
+# run 2.00us
+# run 2.00us
+# run 2.00us
+# run 2.00us
+# run 2.00us
+# run 2.00us
+# run 2.00us
+at 385575 ns(1), Instance /tb_multiplier/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 386125 ns(1), Instance /tb_multiplier/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+# run 2.00us

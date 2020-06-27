@@ -54,16 +54,14 @@ architecture Behavioral of Multiplier is
 			output: out std_logic_vector(N - 1 downto 0)
 		);
 	end Component;
-	--- fOut is for result of Nbit FullAdder.
-	signal fOut: STD_LOGIC_VECTOR(N - 1 downto 0) := (others => '0');
 	--- C is "All Cins and Couts" and "S is All Sins and Souts" of CM_Rows.
 	signal Cout, Sout: Row(0 to N);
 	signal Cin, Sin: Row(0 to N + 1);
-	--- 
-	signal rigLD: STD_LOGIC_VECTOR(0 to N);
+	--- N+1 rigester's Loads and Reset.
+	signal rigLD: STD_LOGIC_VECTOR(0 to N) := (others => '0');
 	signal rigRST: STD_LOGIC := '1';
 	--- a signal to count clock.
-	signal clkCounter: INTEGER RANGE 0 to N + 1 := 0;
+	signal clkCounter: INTEGER RANGE 0 to N + 2 := 0;
 begin
 	--- generate N Multiplier Row component, "A" is one bit of input1, "input" is input2( Nbit number ), "Cin" is Cout of upper level,
 	--- N - 1 lower bit of "Sin" is N - 1 higher bit of Sout of upper level and most significant bit of "Sin" is 0, "Sout" and "Cout"
@@ -78,13 +76,12 @@ begin
 				A => input1(i),
 				input => input2,
 				Cin => Cin(i),
-				Sin(N - 2 downto 0) => Sin(i)(N - 1 downto 1),
-				Sin(N - 1) => '0',
+				Sin(N - 1 downto 0) => '0' & Sin(i)(N - 1 downto 1),
 				Cout => Cout(i),
 				Sout => Sout(i)
 			);
 	end Generate;
-	--- a "2N"bit rigester that its input is "Sout and Cout" of upper level and its output is "Sin and Cin" for lower level.  
+	--- N+1 "2Nbit rigester" that their inputs are "Sout and Cout" of upper level and their outputs are "Sin and Cin" for lower level.  
 	Rig_gen: for i in 0 to N Generate
 		Rig:  Rigester 
 			generic map(
@@ -111,13 +108,12 @@ begin
 		)
 		port map(
 			input1 => Cin(N),
-			input2(N - 2 downto 0) => Sin(N)(N - 1 downto 1),
-			input2(N - 1) => '0',
+			input2(N - 1 downto 0) => '0' & Sin(N)(N - 1 downto 1),
 			cin => '0',
 			cout => Cout(N)(0),
 			output => Sout(N)
 		);
-	--- process part that every N clock assigns result of Multiplier to output.
+	--- process part that for level 0 to 8 rigester make load pin '1' in correct time and every N+2 clock assigns result of Multiplier to output.
 	process(clk)
 	begin
 		if rising_edge(clk)then
@@ -126,6 +122,9 @@ begin
 				rigLD(0) <= '1';
 				clkCounter <= clkCounter + 1;
 			elsif	(clkCounter = N + 1) then
+				rigLD(N) <= '0';
+				clkCounter <= clkCounter + 1;
+			elsif (clkCounter = N + 2) then
 				for i in 0 to N - 1 loop
 					output(i) <= Sin(i + 1)(0);
 				end loop;
@@ -134,7 +133,7 @@ begin
 			else
 				rigLD(clkCounter - 1) <= '0';
 				rigLD(clkCounter) <= '1';
-				clkCounter <= clkCounter + 1;
+				clkCounter <= clkCounter + 1;			
 			end if;
 		end if;
 	end process;

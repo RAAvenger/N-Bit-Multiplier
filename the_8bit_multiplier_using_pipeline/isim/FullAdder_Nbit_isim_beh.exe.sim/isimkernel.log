@@ -1,0 +1,28 @@
+Command line:
+   FullAdder_Nbit_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  4198
+
+Sat Jun 27 17:44:17 2020
+
+
+ Elaboration Time: 0.359375 sec
+
+ Current Memory Usage: 5818.91 Meg
+
+ Total Signals          : 134
+ Total Nets             : 59
+ Total Signal Drivers   : 42
+ Total Blocks           : 34
+ Total Primitive Blocks : 17
+ Total Processes        : 42
+ Total Traceable Variables  : 17
+ Total Scalar Nets and Variables : 428
+
+ Total Simulation Time: 0.359375 sec
+
+ Current Memory Usage: 5347 Meg
+
+Sat Jun 27 17:45:22 2020
+
