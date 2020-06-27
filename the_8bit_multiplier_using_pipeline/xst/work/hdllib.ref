@@ -1,0 +1,6 @@
+EN c_module NULL "E:/Programing/University Projects/VHDL/the_8bit_multiplier_using_pipeline/C_Module.vhd" sub00/vhpl04 1590869102
+AR c_module behavioral "E:/Programing/University Projects/VHDL/the_8bit_multiplier_using_pipeline/C_Module.vhd" sub00/vhpl05 1590869103
+EN half_adder NULL "E:/Programing/University Projects/VHDL/the_8bit_multiplier_using_pipeline/Half_Adder.vhd" sub00/vhpl00 1590869098
+EN full_adder NULL "E:/Programing/University Projects/VHDL/the_8bit_multiplier_using_pipeline/Full_Adder.vhd" sub00/vhpl02 1590869100
+AR full_adder behavioral "E:/Programing/University Projects/VHDL/the_8bit_multiplier_using_pipeline/Full_Adder.vhd" sub00/vhpl03 1590869101
+AR half_adder behavioral "E:/Programing/University Projects/VHDL/the_8bit_multiplier_using_pipeline/Half_Adder.vhd" sub00/vhpl01 1590869099

@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "E:/Programing/University Projects/VHDL/the_8bit_multiplier_using_pipeline/Multiplier_isim_beh.exe" -prj "E:/Programing/University Projects/VHDL/the_8bit_multiplier_using_pipeline/Multiplier_beh.prj" "work.Multiplier" 

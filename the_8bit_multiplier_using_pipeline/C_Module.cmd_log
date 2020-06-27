@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "E:/Programing/University Projects/VHDL/the_8bit_multiplier_using_pipeline/C_Module.xst" -ofn "E:/Programing/University Projects/VHDL/the_8bit_multiplier_using_pipeline/C_Module.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -bm Multiplier_Row.bmm -p xc3s500e-fg320-4 "C_Module.ngc" C_Module.ngd  

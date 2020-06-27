@@ -1,0 +1,46 @@
+Release 14.7 ngdbuild P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Command Line: C:\ProgramFiles\14.7\ISE_DS\ISE\bin\nt64\unwrapped\ngdbuild.exe
+-intstyle ise -dd _ngo -nt timestamp -i -bm Multiplier_Row.bmm -p
+xc3s500e-fg320-4 C_Module.ngc C_Module.ngd
+
+Reading NGO file "E:/Programing/University
+Projects/VHDL/the_8bit_multiplier_using_pipeline/C_Module.ngc" ...
+Gathering constraint information from source properties...
+Done.
+
+Resolving constraint associations...
+Checking Constraint Associations...
+Done...
+
+Processing BMM file "Multiplier_Row.bmm" ...
+
+ERROR::11 - Unexpected symbol 'library', 'DEFINE_MEMORY_TYPE, ADDRESS_INSTANCE, ADDRESS_TEMPLATE, ADDRESS_MAP, or ADDRESS_SPACE' expected.
+   Line #1, File "Multiplier_Row.bmm".
+library IEEE;
+^
+
+ERROR:NgdBuild:989 - Failed to process BMM information Multiplier_Row.bmm
+
+Checking expanded design ...
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+NGDBUILD Design Results Summary:
+  Number of errors:     1
+  Number of warnings:   0
+
+Total memory usage is 4391256 kilobytes
+
+Total REAL time to NGDBUILD completion:  7 sec
+Total CPU time to NGDBUILD completion:   5 sec
+
+One or more errors were found during NGDBUILD.  No NGD file will be written.
+
+Writing NGDBUILD log file "C_Module.bld"...

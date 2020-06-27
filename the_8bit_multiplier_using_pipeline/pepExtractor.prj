@@ -1,0 +1,6 @@
+work	"C_Module.vhd"
+work	"FullAdder_Nbit.vhd"
+work	"Full_Adder.vhd"
+work	"Half_Adder.vhd"
+work	"Multiplier.vhd"
+work	"Multiplier_Row.vhd"

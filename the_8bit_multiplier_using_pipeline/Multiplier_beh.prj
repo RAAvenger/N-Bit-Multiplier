@@ -1,0 +1,7 @@
+vhdl work "Half_Adder.vhd"
+vhdl work "Full_Adder.vhd"
+vhdl work "C_Module.vhd"
+vhdl work "Rigester.vhd"
+vhdl work "Multiplier_Row.vhd"
+vhdl work "FullAdder_Nbit.vhd"
+vhdl work "Multiplier.vhd"

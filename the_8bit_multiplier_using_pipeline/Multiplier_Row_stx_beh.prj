@@ -1,0 +1,4 @@
+vhdl isim_temp "Half_Adder.vhd"
+vhdl isim_temp "Full_Adder.vhd"
+vhdl isim_temp "C_Module.vhd"
+vhdl isim_temp "Multiplier_Row.vhd"
