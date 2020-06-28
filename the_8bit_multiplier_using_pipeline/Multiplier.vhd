@@ -125,9 +125,7 @@ begin
 				rigLD(N) <= '0';
 				clkCounter <= clkCounter + 1;
 			elsif (clkCounter = N + 2) then
-				for i in 0 to N - 1 loop
-					output(i) <= Sin(i + 1)(0);
-				end loop;
+				output(0 to N - 1) <= Sin(1 to N)(0);
 				output((N * 2) - 1 downto N) <= Sin(N + 1);
 				clkCounter <= 0;
 			else
